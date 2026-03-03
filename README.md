@@ -28,6 +28,8 @@ Retorna:
 
 🎉 Folga (dias ímpares)
 
+
+
 🧠 Regra de Negócio
 
 A lógica central está isolada em /lib/escala.ts.
@@ -49,6 +51,8 @@ Math.floor para evitar erro decimal
 
 Tipagem explícita para maior segurança
 
+
+
 🎨 UI & Design System
 
 A interface utiliza:
@@ -67,6 +71,8 @@ Melhor organização visual
 
 Base pronta para escalar como produto
 
+
+
 🛠 Tecnologias Utilizadas
 
 Next.js (App Router)
@@ -78,6 +84,8 @@ TypeScript
 TailwindCSS
 
 shadcn/ui
+
+
 
 🎯 Funcionalidades
 
@@ -91,9 +99,6 @@ Estrutura modular
 
 Base pronta para expansão (SaaS)
 
-🚀 Deploy
-
-O projeto está preparado para deploy na Vercel.
 
 
 👨‍💻 Autor
