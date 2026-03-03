@@ -3,6 +3,9 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Vou trabalhar?",
+  icons: {
+    icon: "/favicon.png",
+  },
   description: "organize seus turnos de trabalho 12x36",
 };
 
