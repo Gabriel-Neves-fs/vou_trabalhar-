@@ -3,6 +3,7 @@
 import { verificarEscala } from "@/libs/escala";
 import React from "react";
 import ResultCard from "./ResultCard";
+import { Button } from "@/components/ui/button";
 
 export default function DateForm() {
   const [dataInicio, setDataInicio] = React.useState("");
@@ -41,9 +42,9 @@ export default function DateForm() {
           className="border p-2 rounded-2xl"
           required
         />
-        <button className="bg-black text-white p-2 rounded-2xl">
+        <Button className="bg-black text-white p-2 rounded-2xl">
           Verificar
-        </button>
+        </Button>
       </form>
       {resultado && <ResultCard resultado={resultado} />}
     </div>
