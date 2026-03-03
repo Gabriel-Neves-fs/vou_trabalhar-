@@ -21,7 +21,10 @@ export default function DateForm() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen gap-4">
       <h1 className="text-2xl font-bold">Vou trabalhar?</h1>
-      <form onSubmit={handleSubmit} className="flex flex-col gap-2">
+      <form
+        onSubmit={handleSubmit}
+        className="flex items-center flex-col gap-2"
+      >
         <p className="text-sm text-gray-600">
           Informe a data de início da escala.
         </p>
